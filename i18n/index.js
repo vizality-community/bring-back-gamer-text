@@ -1,3 +1,3 @@
 module.exports = {
-  'en-US': require('./en-US')
+  'en-US': require('./en-US'),
 };
