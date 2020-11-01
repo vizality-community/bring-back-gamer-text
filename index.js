@@ -1,5 +1,5 @@
 const { Plugin } = require('@entities');
-const Messages = vizality.api.i18n.Messages;
+const { Messages } = require('@i18n');
 
 const i18n = require('./i18n');
 
