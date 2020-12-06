@@ -21,3 +21,5 @@ Brings back the older "gamer" texts that Discord used to use in various places a
 ## Todo
 
 - [ ] Add support for all languages
+
+Test
