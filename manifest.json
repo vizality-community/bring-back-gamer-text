@@ -1,10 +1,11 @@
 {
   "name": "Bring Back Gamer Text",
   "version": "1.0.0",
-  "author": "dperolio",
-  "authorId": "97549189629636608",
+  "author": {
+    "name": "dperolio",
+    "id": "97549189629636608"
+  },
   "description": "Brings back the older \"gamer\" texts Discord used to use in various places around the app.",
   "icon": "assets/icon.png",
-  "color": "#fffd38",
   "license": "MIT"
 }
