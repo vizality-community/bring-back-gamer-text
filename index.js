@@ -1,9 +1,9 @@
-const { Messages } = require('@vizality/i18n');
-const { Plugin } = require('@vizality/entities');
+import { Messages } from '@vizality/i18n';
+import { Plugin } from '@vizality/core';
 
-const i18n = require('./i18n');
+import i18n from './i18n';
 
-module.exports = class BringBackGamerTexts extends Plugin {
+export default class BringBackGamerTexts extends Plugin {
   onStart () {
     vizality.api.i18n.injectAllStrings(i18n);
 
@@ -11,4 +11,4 @@ module.exports = class BringBackGamerTexts extends Plugin {
     Messages.VERIFICATION_LEVEL_HIGH = '(╯°□°）╯︵ ┻━┻';
     Messages.VERIFICATION_LEVEL_VERY_HIGH = '┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻';
   }
-};
+}
