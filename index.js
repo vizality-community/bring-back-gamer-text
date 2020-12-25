@@ -1,7 +1,7 @@
 import { Messages } from '@vizality/i18n';
 import { Plugin } from '@vizality/core';
 
-import i18n from './i18n';
+import * as i18n from './i18n';
 
 export default class BringBackGamerTexts extends Plugin {
   onStart () {
